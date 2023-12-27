@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link href="./style.css" rel="stylesheet" />
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero-container">
+        <img
+          src="./images/illustration-box-desktop.svg"
+          alt="Box"
+          class="box-desktop"
+        />
+        <picture>
+          <source
+            srcset="./images/illustration-woman-online-desktop.svg"
+            media="(min-width: 1200px)"
+          />
+          <img
+            src="./images/illustration-woman-online-mobile.svg"
+            alt="FAQ Hero"
+            class="faq-hero"
+          />
+        </picture>
+        <picture>
+          <source
+            srcset="./images/bg-pattern-desktop.svg"
+            media="(min-width:1200px)"
+          />
+          <img
+            src="./images/bg-pattern-mobile.svg"
+            alt="Pattern"
+            class="faq-hero-pattern"
+          />
+        </picture>
+      </div>
+      <ul class="qa-container">
+        <h1>FAQ</h1>
+        <li class="qa">
+          <h3 class="question">
+            How many team members can I invite?
+            <span class="faq-button">
+              <img src="./images/icon-arrow-down.svg" alt="FAQ Button" />
+            </span>
+          </h3>
+          <p class="answer">
+            You can invite up to 2 additional users on the Free plan. There is
+            no limit on team members for the Premium plan.
+          </p>
+        </li>
+
+        <li class="qa">
+          <h3 class="question">
+            What is the maximum file upload size?
+            <span class="faq-button">
+              <img src="./images/icon-arrow-down.svg" alt="FAQ Button" />
+            </span>
+          </h3>
+          <p class="answer">
+            No more than 2GB. All files in your account must fit your allotted
+            storage space.
+          </p>
+        </li>
+
+        <li class="qa">
+          <h3 class="question">
+            How do I reset my password?
+            <span class="faq-button">
+              <img src="./images/icon-arrow-down.svg" alt="FAQ Button" />
+            </span>
+          </h3>
+          <p class="answer">
+            Click “Forgot password” from the login page or “Change password”
+            from your profile page. A reset link will be emailed to you.
+          </p>
+        </li>
+
+        <li class="qa">
+          <h3 class="question">
+            Can I cancel my subscription?
+            <span class="faq-button">
+              <img src="./images/icon-arrow-down.svg" alt="FAQ Button" />
+            </span>
+          </h3>
+          <p class="answer">
+            Yes! Send us a message and we’ll process your request no questions
+            asked.
+          </p>
+        </li>
+
+        <li class="qa">
+          <h3 class="question">
+            Do you provide additional support?
+            <span class="faq-button">
+              <img src="./images/icon-arrow-down.svg" alt="FAQ Button" />
+            </span>
+          </h3>
+          <p class="answer">
+            Chat and email support is available 24/7. Phone lines are open
+            during normal business hours.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/LySabrina">Sabrina Ly</a>.
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
